@@ -12,6 +12,7 @@ function add(){
         document.querySelector(".error").innerHTML="Empty list can't be added"
     }
     else{
+        document.querySelector(".error").innerHTML=""
     let li = document.createElement("li")
     li.innerHTML=text_bx.value;
     listbox.appendChild(li)
